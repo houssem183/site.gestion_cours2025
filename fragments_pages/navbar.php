@@ -14,10 +14,9 @@ $page_courante = basename($_SERVER['PHP_SELF']);
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="../index.php" class="<?php echo ($page_courante == 'index.php') ? 'active' : ''; ?>" >Home<br></a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="../cours/cours.php" class="<?php echo ($page_courante == 'cours.php') ? 'active' : ''; ?>">Cours</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="../index.php" class="<?php echo ($page_courante == 'index.php') ? 'active' : ''; ?>" >Acceuil<br></a></li>
+          <li><a href="../cours/cours.php" class="<?php echo ($page_courante == 'cours.php' || $page_courante == 'cours-details.php') ? 'active' : ''; ?>">Cours</a></li>
+          <li><a href="../formateurs/formateurs.php" class="<?php echo ($page_courante == 'formateurs.php') ? 'active' : ''; ?>" >Formateurs</a></li>
           <li><a href="events.html">Events</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>

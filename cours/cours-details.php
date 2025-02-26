@@ -48,8 +48,8 @@ if (isset($_GET['id'])) {
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Details des Cours</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <h1>Détails du cours : <?= $le_cour['titre_cours'] ?></h1>
+              <p class="mb-0"><?= $le_cour['description_cours'] ?></p>
             </div>
           </div>
         </div>
@@ -57,7 +57,8 @@ if (isset($_GET['id'])) {
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.php">Acceuil</a></li>
+            <li><a href="cours.php">Cours</a></li>
             <li class="current">Details des Cours </li>
           </ol>
         </div>

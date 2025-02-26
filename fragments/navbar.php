@@ -14,10 +14,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home<br></a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.php" class="active">Acceuil<br></a></li>
           <li><a href="cours/cours.php">Cours</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="formateurs/formateurs.php">Formateurs</a></li>
           <li><a href="events.html">Events</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>

@@ -40,7 +40,7 @@ $cours = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <nav class="breadcrumbs">
       <div class="container">
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="../index.php">Acceuil</a></li>
           <li class="current">Cours</li>
         </ol>
       </div>
